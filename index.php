@@ -71,6 +71,7 @@
                 <h5 class="white-text">Links</h5>
                 <ul>
                   <li><a class="grey-text text-lighten-3" href="http://idolsaudities.nl">idolsaudities</a></li>
+                  <li><a class="grey-text text-lighten-3" href="http://sonnyluu.nl/Marijn/demo.html">Marijn fansite</a></li>
                 </ul>
               </div>
             </div>
