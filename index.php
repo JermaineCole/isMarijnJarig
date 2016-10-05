@@ -22,6 +22,7 @@
       </ul>
 
       <ul id="nav-mobile" class="side-nav">
+        <li><h3 class="black-text center-align">FAQ</h3></li>
         <li><a href="#">Wanneer is marijn jarig?</a></li>
         <li><a href="#">Waarom is marijn jarig?</a></li>
         <li><a href="#">Waarom is marijn geboren?</a></li>
