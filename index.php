@@ -36,7 +36,7 @@
 					</li>
 					<li>
 						<div class="collapsible-header black-text flow-text">Waarom is marijn geboren?</div>
-						<div class="collapsible-body"><p class="black-text text-low">Hebben je ouders al met je gesproken over de bloemetjes en bijtjes?</p></div>
+						<div class="collapsible-body"><p class="black-text text-low">Nou als een man en vrouw van elkaar houden dan gaan ze ... Hebben je ouders al met je gesproken over de bloemetjes en bijtjes?</p></div>
 					</li>
 					<li>
 						<div class="collapsible-header black-text flow-text">Kunnen we dit stoppen?</div>
