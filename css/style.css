@@ -27,3 +27,9 @@ body {
 .hide {
 	display: none;
 }
+.text-low {
+	line-height: 26px;
+}
+#menuTitle {
+	margin: 16px;
+}
