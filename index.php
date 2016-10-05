@@ -22,7 +22,10 @@
       </ul>
 
       <ul id="nav-mobile" class="side-nav">
-        <li><a href="#"></a></li>
+        <li><a href="#">Wanneer is marijn jarig?</a></li>
+        <li><a href="#">Waarom is marijn jarig?</a></li>
+        <li><a href="#">Waarom is marijn geboren?</a></li>
+        <li><a href="#">Kunnen we dit stoppen?</a></li>
       </ul>
       <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
@@ -31,7 +34,7 @@
   <div class="section no-pad-bot" id="index-banner">
     <div class="container">
       <div class="row">
-        <div class="col s6 offset-s3">
+        <div class="col s12 l6 offset-l3">
           <div class="card">
             <div class="card-image">
               <img id="marijnPic1" class="hide" src="img/matrijn.jpg">
