@@ -29,7 +29,7 @@
   </nav>
   <div class="section no-pad-bot" id="index-banner">
     <div class="container">
-      <br><br>
+      <!-- <br><br>
       <h1 class="header center deep-orange-text ">Is Marijn vandaag jarig?</h1>
       <div class="row center">
         <h5 class="header col s12 light">
@@ -57,7 +57,21 @@
         </h5>
       </div>
       
-      <br><br>
+      <br><br> -->
+
+      <div class="row">
+        <div class="col s6 offset-s3">
+          <div class="card">
+            <div class="card-content">
+              <span class="card-title">Is marijn jarig vandaag?</span>
+            </div>
+            <div class="card-action">
+              <a id="ja" class=""></a>
+              <a id="nee" class=""></a>
+            </div>
+          </div>
+        </div>
+      </div>
 
     </div>
   </div> 
@@ -76,24 +90,56 @@
   </div>
 
   <footer class="page-footer orange darken-3">
-    <div class="container">
-      <div class="row">
-        <div class="col l6 s12">
-          <h5 class="white-text"></h5>
-          <p class="grey-text text-lighten-4">Dit domein is te koop.</p>
-
-
-        </div>
-        
-        
-      </div>
-    </div>
-    
-  </footer>
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">Dit domein is te koop. </h5>
+                <p class="grey-text text-lighten-4">(behalve voor Marijn van Rijt)</p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Links</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="http://idolsautities.nl">idolsautities</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2014 Copyright Text
+            <a class="grey-text text-lighten-4 right" href="#!"></a>
+            </div>
+          </div>
+        </footer>
 
 
   <!--  Scripts-->
+
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script>
+            var d = new Date();
+            var n = d.getDate();
+
+            var z = new Date();
+            var x = z.getMonth();
+
+
+            console.log(n+""+x);
+
+            if (n == 7 && x == 2)
+            {
+                $('#ja').text("Ja");
+                $('#nee').text("Zeker niet");
+                $('#nee').addClass("grey-text text-lighten-1");
+            }
+            else
+            {
+                $('#ja').text("Ja");
+                $('#ja').addClass("grey-text text-lighten-1");
+                $('#nee').text("Zeker niet");
+            };
+        </script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
 
