@@ -34,7 +34,8 @@
         <div class="col s6 offset-s3">
           <div class="card">
             <div class="card-image">
-              <img id="marijnPic" src="img/matrijn.jpg">
+              <img id="marijnPic1" class="hide" src="img/matrijn.jpg">
+              <img id="marijnPic2" class="hide" src="img/hotline.gif">
             </div>
             <div class="card-content">
               <span class="card-title">Is Marijn jarig vandaag?</span>
@@ -97,23 +98,23 @@
   var n = d.getDate();
 
   var z = new Date();
-  var x = z.getMonth();
+  var x = z.getMonth()+1;
+  console.log("day is: " + n);
+  console.log("month is: " + x);
 
-
-  console.log(n+""+x);
-
-  if (n == 7 && x == 2)
+  if (n == 8 && x == 3)
   {
     $('#ja').text("Ja");
     $('#nee').text("Zeker niet");
     $('#nee').addClass("grey-text text-lighten-2");
-    $('#marijnPic').attr("src","img/hotline.jpg");
+    $('#marijnPic2').removeClass("hide");
   }
   else
   {
     $('#ja').text("Ja");
     $('#ja').addClass("grey-text text-lighten-2");
     $('#nee').text("Zeker niet");
+    $('#marijnPic1').removeClass("hide");
   };
 </script>
 <script src="js/materialize.js"></script>
