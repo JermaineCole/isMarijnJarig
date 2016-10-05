@@ -64,7 +64,7 @@
           <div class="card">
             <div class="card-content">
               <span class="card-title">Is Marijn jarig vandaag?</span>
-              <p class="grey-text text-lighten-1">Marijn A.K.A. Matrijn, Matrump en pleb</p>
+              <p class="grey-text text-lighten-1">Marijn A.K.A. Matrijn, ginger en pleb</p>
             </div>
             <div class="card-action">
               <a id="ja" class=""></a>
