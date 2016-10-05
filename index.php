@@ -29,36 +29,6 @@
   </nav>
   <div class="section no-pad-bot" id="index-banner">
     <div class="container">
-      <!-- <br><br>
-      <h1 class="header center deep-orange-text ">Is Marijn vandaag jarig?</h1>
-      <div class="row center">
-        <h5 class="header col s12 light">
-            
-            <script>
-            var d = new Date();
-            var n = d.getDate();
-
-            var z = new Date();
-            var x = z.getMonth();
-
-
-            console.log(n+""+x);
-
-            if (n == 7 && x == 2)
-            {
-                document.write("Ja.");
-            }
-            else
-            {
-                document.write("Nee.");
-            };
-        </script>
-            
-        </h5>
-      </div>
-      
-      <br><br> -->
-
       <div class="row">
         <div class="col s6 offset-s3">
           <div class="card">
