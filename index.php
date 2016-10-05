@@ -63,7 +63,8 @@
         <div class="col s6 offset-s3">
           <div class="card">
             <div class="card-content">
-              <span class="card-title">Is marijn jarig vandaag?</span>
+              <span class="card-title">Is Marijn jarig vandaag?</span>
+              <p class="grey-text text-lighten-1">Marijn A.K.A. Matrijn, Matrump en pleb</p>
             </div>
             <div class="card-action">
               <a id="ja" class=""></a>
@@ -130,12 +131,12 @@
             {
                 $('#ja').text("Ja");
                 $('#nee').text("Zeker niet");
-                $('#nee').addClass("grey-text text-lighten-1");
+                $('#nee').addClass("grey-text text-lighten-2");
             }
             else
             {
                 $('#ja').text("Ja");
-                $('#ja').addClass("grey-text text-lighten-1");
+                $('#ja').addClass("grey-text text-lighten-2");
                 $('#nee').text("Zeker niet");
             };
         </script>
